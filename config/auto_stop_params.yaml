@@ -1,0 +1,5 @@
+auto_stop_test:
+  ros__parameters:
+    move_speed: 0.6         # ความเร็วเดินหน้า (m/s)
+    stop_delay: 3.0         # หน่วงเวลาหากไม่มีสิ่งกีดขวางให้เดินหน้าต่อ (s)
+    sensor_timeout: 1.0     # time out หากไม่ได้รับข้อมูล sensor (s)
