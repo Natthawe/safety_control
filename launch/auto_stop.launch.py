@@ -15,8 +15,8 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package=pkg_name,
-            executable='auto_stop_test',
-            name='auto_stop_test',
+            executable='obstacle_block_node',
+            name='obstacle_block_node',
             output='screen',
             parameters=[config_file]
         )

@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'auto_stop_test = safety_control.auto_stop_test:main',
+            'obstacle_block_node = safety_control.obstacle_block_node:main'
         ],
     },
 )
